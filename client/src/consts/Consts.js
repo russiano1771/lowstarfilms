@@ -1,0 +1,6 @@
+export const HOME_PAGE = '/'
+export const MOVIES_PAGE = '/movie'
+export const SERIES_PAGE = '/series'
+export const REGISTER_PAGE = '/register'
+export const LOGIN_PAGE = '/login'
+export const WATCH_PAGE = '/watch'

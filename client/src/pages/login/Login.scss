@@ -1,0 +1,111 @@
+.login {
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(
+
+                  rgba(0, 0, 0, 0) 0%,
+                  rgba(0, 0, 0, 1) 100%
+  ),
+  url("https://thurrott.s3.amazonaws.com/wp-content/uploads/sites/2/2022/01/14172326/netflix.jpg");
+  background-size: cover;
+  position: relative;
+
+  .top {
+    .wrapper {
+      padding: 20px 50px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .logo {
+        height: 40px;
+      }
+    }
+  }
+
+  .container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+    form {
+      width: 300px;
+      height: 500px;
+      padding: 30px;
+      border-radius: 5px;
+      background-color: rgba(0,0,0, .7);
+      display: flex;
+      flex-direction: column;
+
+
+
+      .span{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        .small{
+          margin-top: 30px;
+          color: #727272;
+
+
+        }
+        span{
+          display: flex;
+          b{
+            margin-left: 5px;
+          }
+        }
+      }
+
+
+      .inputNet{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        gap: 25px;
+      }
+
+      input {
+        height: 50px;
+        border-radius: 5px;
+        background-color: #414141;
+        color: white;
+        padding-left: 10px;
+        border: none;
+        outline: none;
+        margin-top: 10px;
+
+        &::placeholder {
+          color: lightgray;
+        }
+      }
+
+      button {
+        height: 50px;
+        border-radius: 5px;
+        background-color: red;
+        color: white;
+        border: none;
+        font-size: 18px;
+        font-weight: 500;
+        cursor: pointer;
+      }
+
+      span {
+        color: darkgray;
+        b {
+          color: white;
+        }
+      }
+    }
+  }
+}
